@@ -1,4 +1,8 @@
 import ReactDOM from 'react-dom';
-import App from './App';
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+import 'bootswatch/dist/slate/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.min.css';
+
+import Router from './Router';
+
+ReactDOM.render(<Router />, document.querySelector('#root'));
